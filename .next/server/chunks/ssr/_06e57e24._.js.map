@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/jesusflores/Desktop/webdev/react/ecommerce-yt-build/components/Loader.tsx"],"sourcesContent":["function Loader() {\n  return (\n    <div className=\"flex justify-center items-center h-screen\">\n      <div className=\"animate-spin rounded-full h-32 w-32 border-b-2 border-blue-500\" />\n    </div>\n  );\n}\n\nexport default Loader;\n"],"names":[],"mappings":";;;;;AAAA,SAAS;IACP,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAGrB;uCAEe","debugId":null}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///Users/jesusflores/Desktop/webdev/react/ecommerce-yt-build/app/%28store%29/loading.tsx"],"sourcesContent":["import Loader from \"@/components/Loader\";\n\nfunction Loading() {\n  return <Loader />;\n}\n\nexport default Loading;\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,SAAS;IACP,qBAAO,8OAAC,qHAAA,CAAA,UAAM;;;;;AAChB;uCAEe","debugId":null}}]
+}
